@@ -1,0 +1,14 @@
+@ instalar o git no Windows
+
+#Criando um repositorio#
+>> Cria a pasta no PC
+>> Abrir o CMD
+>> Pelo cmd, abrir o diretorio/ Pasta
+>> Dentro do diretorio/ Pasta, dar o comando git init <nome da pasta>
+
+#Add e atualizar o arquivo#
+>> git add <nome do projeto com a extensão>
+>> git add . {este [.] add todos os arquivos para serem monitorado}
+>> git status {monitora a}
+
+OBS: dentro da pasta podemos add novos arquivos
