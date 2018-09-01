@@ -12,3 +12,18 @@
 >> git status {monitora a}
 
 OBS: dentro da pasta podemos add novos arquivos
+
+#git reset head#
+>> git reset HEAD -- <nome_do_arquivo.extensão>
+>> git reset HEAD .
+
+#git commit -m {mensagem}# historico do q foi alterado
+>> git commit -m "Commit Inicial"  {mensagem para a geral}
+
+#git checkout -b {branch}# criando a ramificação no repositório/ Pasta .ex Desenvolvimento / Teste / Produção
+>> git checkout -b <nome do repositorio> // -b cria o repositorio 
+>> git checkout <nome do repositorio>    // altera o diretorio/ Pasta para commitar os arquivos
+>> git checkout -d <nome do repositorio> // -d deleta o repositorio 
+
+#atualizar a branch#
+>> git marge <branch> //<branch> é o repositorio que será copiado para o outro
